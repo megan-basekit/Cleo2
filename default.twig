@@ -1,0 +1,53 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+
+<header class="bk-header clearfix">
+    <div class="logo-wrap">
+         <div class="wrapper clearfix">
+            {{widget('logo', 'logo', {"defaultlogo": asset('images/logo.png')})|raw}}      
+        </div>
+    </div>
+</header>
+<div class="wrapper clearfix menu-sz">
+  <nav class="sz-nav">
+    {{widget('extendednavigation', 'navigationheader', {})|raw}}
+  </nav>
+</div>
+<div class="main wrapper clearfix">
+    {{zone('main')|raw}}
+</div>
+<footer class="bk-footer">
+    <div class="wrapper clearfix">
+                {{widget('content', 'contactformheader', {"content":"<h2>Contact us</h2>"})|raw}}
+                {{widget('content', 'contactformcontent', {"content":"<p>Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed, vestibulum id, eleifend</p>"})|raw}}
+                {{widget('contactform', 'contactform', {'text': 'Send;','formTitle': 'Contact Form', 'email': 'profile'})|raw}}
+    </div>
+    <div class="wrapper clearfix">
+        <div class="responsivecolumns columns-four-25-25-25-25">
+            <div class="column columns-four-first f-phone">
+                {{widget('profile', 'f-phone', { 'profileType':'phone', 'phone':'profile'})|raw}}                            
+            </div>
+            <div class="column columns-four-second f-mail">
+                {{widget('profile', 'f-mail', { 'profileType':'email', 'email':'profile'})|raw}}
+            </div>
+            <div class="column columns-four-third f-address">
+                {{widget('profile', 'f-address', { 'profileType':'address', 'address':'profile'})|raw}}
+            </div>
+            <div class="column columns-four-fourth f-time">
+                {{widget('content', 'f-time', {content: 'pon-pt : 8:00-17:00', lines: 'all'})|raw}}
+            </div>            
+        </div>            
+    </div>
+</footer>
+<section>
+  <div class="copy-sz">
+    <div class="wrapper clearfix">
+        {{widget('image', 'headercolumn3image', { 'src': asset('images/logo-footer.png'), 'alt': 'logo', 'fileName': 'logo-footer.png', 'fileSize': '3kb', 'imageSize': '53px x 23px', 'imageWidth': '53px'})|raw}}
+    </div>
+    <div class="wrapper clearfix f-socialicons">
+        {{widget('profile', 'f-socialicons', { 'profileType':'socialicons', 'socialicons':'profile'})|raw}}
+    </div>
+  </div>
+</section>
+{% endblock %}
