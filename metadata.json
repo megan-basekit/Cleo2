@@ -1,4 +1,9 @@
 {
+    "name":"AbiSinthe",
+    "thumbnail":"cleo.png",
+    "screenshot":"cleo.png",
+    "templateType":"general",
+    "pageTypes":["default","home"],
     "tags": {
         "en": ["Business", "Trade", "company", "business", "corporate", "finance", "financial", "firm", "money", "simple"]        
     },
