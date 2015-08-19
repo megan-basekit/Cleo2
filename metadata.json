@@ -4,7 +4,17 @@
     "templateType":"general",
     "pageTypes":["default","home"],
     "tags": {
-        "en": ["Business", "Trade", "company", "business", "corporate", "finance", "financial", "firm", "money", "simple"]        
+        "en": ["Business", "Trade", "company", "business", "corporate", "finance", "financial", "firm", "money", "simple"]
+    },
+    "styles": {
+        "header": {
+            "header-bg-color": "#627585",
+            "header-border-color": "#fcfcfc"
+        },
+        "footer": {
+            "footer-bg-color": "#1f2b35",
+            "footer-border-color": "#273744"
+        }
     },
     "colorSwatches":
     {
