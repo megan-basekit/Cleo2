@@ -8,7 +8,7 @@
     },
     "styles": {
         "header": {
-            "header-bg-color": "#627585",
+            "header-bg-color": "#00000",
             "header-border-color": "#fcfcfc"
         },
         "footer": {
@@ -19,7 +19,7 @@
     "colorSwatches":
     {
         "Swatch 1": {
-            "color1":"#ffffff",
+            "color1":"#000000",
             "color2":"#627585",
             "color3":"#1f2b35",
             "color4":"#273744",
@@ -31,7 +31,7 @@
     "fontSwatch": {
        "title": "Lato",
         "font1": {
-            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-family": "\"Comic sans\"",
             "font-size": "60px",
             "font-weight": "700",
             "line-height": "60px",
@@ -39,7 +39,7 @@
             "letter-spacing": "inherit"
         },
         "font2": {
-            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-family": "\"Comic sans\"",
             "font-size": "25px",
             "font-weight": "inherit",
             "line-height": "36px",
@@ -47,7 +47,7 @@
             "letter-spacing": "inherit"
         },
         "font3": {
-            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-family": "\"Comic sans\"",
             "font-size": "20px",
             "font-weight": "inherit",
             "line-height": "24px",
@@ -55,7 +55,7 @@
             "letter-spacing": "inherit"
         },
         "font4": {
-            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-family": "\"Comic sans\"",
             "font-size": "16px",
             "font-weight": "100",
             "line-height": "26px",
@@ -63,7 +63,7 @@
             "letter-spacing": "inherit"
         },
         "font5": {
-            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-family": "\"Comic sans\"",
             "font-size": "12px",
             "font-weight": "inherit",
             "line-height": "20px",
@@ -71,7 +71,7 @@
             "letter-spacing": "inherit"
         },
         "font6": {
-            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-family": "\"Comic sans\"",
             "font-size": "11px",
             "font-weight": "400",
             "line-height": "26px",
@@ -82,7 +82,7 @@
             "background-color-hover": "@color-swatch1"
         },
         "font7": {
-            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-family": "\"Comic sans\"",
             "font-size": "14px",
             "font-weight": "inherit",
             "line-height": "27px",
@@ -92,7 +92,7 @@
             "background-color-hover": "@color-swatch5"
         },
         "font8": {
-            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-family": "\"Comic sans\"",
             "font-size": "60px",
             "font-weight": "700",
             "line-height": "60px",
@@ -100,7 +100,7 @@
             "letter-spacing": "inherit"
         },
         "font9": {
-            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-family": "\"Comic sans\"",
             "font-size": "22px",
             "font-weight": "400",
             "line-height": "26px",
@@ -108,7 +108,7 @@
             "letter-spacing": "inherit"
         },
         "font10": {
-            "font-family": "\"Lato\", Geneva, Tahoma, sans-serif",
+            "font-family": "\"Comic sans\"",
             "font-size": "14px",
             "font-weight": "400",
             "line-height": "16px",
