@@ -2,10 +2,10 @@
 
 {% block content %}
 
-<header class="bk-header clearfix">
+<header class="bk-header clearfix header-bg-color">
     <div class="logo-wrap">
          <div class="wrapper clearfix">
-            {{widget('logo', 'logo', {"defaultlogo": asset('images/logo.png')})|raw}}      
+            {{widget('logo', 'logo', {"defaultlogo": asset('images/logo.png')})|raw}}
         </div>
     </div>
 </header>
@@ -38,15 +38,15 @@
                     {{widget('button', 'people-button2', {text:'show more;', 'align':'widget-align-right'})|raw}}
                 </div>
             </div>
-        </div>        
+        </div>
     </section>
     <section class="listintext-sz clearfix">
         {{widget('content', 'listintextheader', {"content":"<h2>Who we are?</h2>"})|raw}}
         {{widget('content', 'listintextcontent', {"content":"<p>Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed, vestibulum id, eleifend. Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed, vestibulum id, eleifend. Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed, vestibulum id, eleifend. Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed, vestibulum id, eleifend</p>"})|raw}}
-    </section> 
+    </section>
     {{zone('main')|raw}}
 </div>
-<footer class="bk-footer">
+<footer class="bk-footer footer-bg-color">
     <div class="wrapper clearfix">
                 {{widget('content', 'contactformheader', {"content":"<h2>Contact us</h2>"})|raw}}
                 {{widget('content', 'contactformcontent', {"content":"<p>Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed, vestibulum id, eleifend</p>"})|raw}}
@@ -55,7 +55,7 @@
     <div class="wrapper clearfix">
         <div class="responsivecolumns columns-four-25-25-25-25">
             <div class="column columns-four-first f-phone">
-                {{widget('profile', 'f-phone', { 'profileType':'phone', 'phone':'profile'})|raw}}                            
+                {{widget('profile', 'f-phone', { 'profileType':'phone', 'phone':'profile'})|raw}}
             </div>
             <div class="column columns-four-second f-mail">
                 {{widget('profile', 'f-mail', { 'profileType':'email', 'email':'profile'})|raw}}
@@ -65,8 +65,8 @@
             </div>
             <div class="column columns-four-fourth f-time">
                 {{widget('content', 'f-time', {content: 'pon-pt : 8:00-17:00', lines: 'all'})|raw}}
-            </div>            
-        </div>            
+            </div>
+        </div>
     </div>
 </footer>
 <section>

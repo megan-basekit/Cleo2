@@ -8,18 +8,18 @@
     },
     "styles": {
         "header": {
-            "header-bg-color": "#00000",
+            "header-bg-color": "#ff0000",
             "header-border-color": "#fcfcfc"
         },
         "footer": {
-            "footer-bg-color": "#1f2b35",
+            "footer-bg-color": "#551a8b",
             "footer-border-color": "#273744"
         }
     },
     "colorSwatches":
     {
         "Swatch 1": {
-            "color1":"#000000",
+            "color1":"#627585",
             "color2":"#627585",
             "color3":"#1f2b35",
             "color4":"#273744",
@@ -31,7 +31,7 @@
     "fontSwatch": {
        "title": "Lato",
         "font1": {
-            "font-family": "\"Comic sans\"",
+            "font-family": "\"Sans serif\"",
             "font-size": "60px",
             "font-weight": "700",
             "line-height": "60px",
@@ -39,7 +39,7 @@
             "letter-spacing": "inherit"
         },
         "font2": {
-            "font-family": "\"Comic sans\"",
+            "font-family": "\"Sans serif\"",
             "font-size": "25px",
             "font-weight": "inherit",
             "line-height": "36px",
@@ -47,7 +47,7 @@
             "letter-spacing": "inherit"
         },
         "font3": {
-            "font-family": "\"Comic sans\"",
+            "font-family": "\"Sans serif\"",
             "font-size": "20px",
             "font-weight": "inherit",
             "line-height": "24px",
@@ -55,7 +55,7 @@
             "letter-spacing": "inherit"
         },
         "font4": {
-            "font-family": "\"Comic sans\"",
+            "font-family": "\"Sans serif\"",
             "font-size": "16px",
             "font-weight": "100",
             "line-height": "26px",
@@ -63,7 +63,7 @@
             "letter-spacing": "inherit"
         },
         "font5": {
-            "font-family": "\"Comic sans\"",
+            "font-family": "\"Sans serif\"",
             "font-size": "12px",
             "font-weight": "inherit",
             "line-height": "20px",
@@ -71,7 +71,7 @@
             "letter-spacing": "inherit"
         },
         "font6": {
-            "font-family": "\"Comic sans\"",
+            "font-family": "\"Sans serif\"",
             "font-size": "11px",
             "font-weight": "400",
             "line-height": "26px",
@@ -82,7 +82,7 @@
             "background-color-hover": "@color-swatch1"
         },
         "font7": {
-            "font-family": "\"Comic sans\"",
+            "font-family": "\"Sans serif\"",
             "font-size": "14px",
             "font-weight": "inherit",
             "line-height": "27px",
@@ -92,7 +92,7 @@
             "background-color-hover": "@color-swatch5"
         },
         "font8": {
-            "font-family": "\"Comic sans\"",
+            "font-family": "\"Sans serif\"",
             "font-size": "60px",
             "font-weight": "700",
             "line-height": "60px",
@@ -100,7 +100,7 @@
             "letter-spacing": "inherit"
         },
         "font9": {
-            "font-family": "\"Comic sans\"",
+            "font-family": "\"Sans serif\"",
             "font-size": "22px",
             "font-weight": "400",
             "line-height": "26px",
@@ -108,7 +108,7 @@
             "letter-spacing": "inherit"
         },
         "font10": {
-            "font-family": "\"Comic sans\"",
+            "font-family": "\"Sans serif\"",
             "font-size": "14px",
             "font-weight": "400",
             "line-height": "16px",
