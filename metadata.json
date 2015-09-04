@@ -12,7 +12,7 @@
             "header-border-color": "#fcfcfc"
         },
         "footer": {
-            "footer-bg-color": "#551a8b",
+            "footer-bg-color": "@color-swatch1",
             "footer-border-color": "#273744"
         }
     },
