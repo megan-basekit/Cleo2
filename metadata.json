@@ -6,7 +6,7 @@
     "tags": {
         "en": ["Business", "Trade", "company", "business", "corporate", "finance", "financial", "firm", "money", "simple"]
     },
-    "styles1": {
+    "styles": {
         "header": {
             "header-bg-color": "#ff0000",
             "header-border-color": "#fcfcfc"
